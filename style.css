@@ -1,11 +1,12 @@
 .container__carousel {
-    display: block;
-    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
     height: 200px;
     
 }
 .carousel-coment {
     background: #032540;
+    box-sizing: border-box;
 }
 .text{
     color: rgb(171,172,184);

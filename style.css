@@ -23,9 +23,15 @@
 }
 h3 {
     color: #fff;
+    font-family: Rajdhani, sans-serif;
+    font-size: 22px;
+    cursor: auto;
+    text-align: left;
 }
 h5 {
     color: #ffa800!important;
+    font-family: Heebo, sans-serif;
+    font-size: 14px;
 }
 .icon img{
     width: 40px;

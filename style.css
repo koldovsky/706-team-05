@@ -1,7 +1,7 @@
 .container__carousel {
     display: block;
     box-sizing: border-box;
-    height: 100px;
+    height: 200px;
     
 }
 .carousel-coment {
@@ -17,6 +17,6 @@ h4 {
     color: #ffa800!important;
 }
 .icon img{
-    width: 10px;
+    width: 20px;
     
 }

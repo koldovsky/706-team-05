@@ -1,6 +1,13 @@
-.container__carousel {
-    display: flex;
+ .container {
+    display: block;
     justify-content: space-between;
+    height: 300px;
+    background-color: #032540;
+    box-sizing: border-box;
+ }
+ 
+ .container__carousel {
+    display: flex;
     height: 200px;
     
 }
@@ -18,6 +25,6 @@ h4 {
     color: #ffa800!important;
 }
 .icon img{
-    width: 20px;
+    width: 40px;
     
 }

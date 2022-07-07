@@ -8,7 +8,6 @@
  }
  
  .container__carousel {
-    position: relative;
     display: flex;
     height: 200px;
     box-sizing: border-box;

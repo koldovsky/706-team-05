@@ -1,6 +1,6 @@
 .container__carousel {
     display: flex;
-    background-color: aqua;
+    
 }
 .carousel-coment {
     background: #032540;
@@ -13,4 +13,8 @@ h3 {
 }
 h4 {
     color: #ffa800!important;
+}
+.icon{
+    width: 20px;
+    height: 20px;
 }

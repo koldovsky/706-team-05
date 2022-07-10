@@ -1,0 +1,147 @@
+.main__team-container {}
+
+.main__team-content {}
+
+.title-container {}
+
+.team-title {
+  max-width: 540px;
+}
+
+.team-subtitle {
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--subtitle-color);
+}
+
+h2,
+h4 {
+  font-family: Rajdhani, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.14;
+  color: var(--title-color);
+}
+
+.title-vertical-line {
+  font-family: inherit;
+  color: var(--brand-color);
+}
+
+.title-dot {
+  font-family: inherit;
+  color: var(--light-accent-color);
+}
+
+.team-vacancies {}
+
+.vacancies-logo {
+  max-width: 120px;
+  height: auto;
+}
+
+.vacancies-content {}
+
+.vacancies-content h4 {
+  max-width: 110px;
+}
+
+.vacancies-content h4,
+.personal-card h4 {
+  font-size: 25px;
+  line-height: 1.36;
+}
+
+.vacancies-content p {
+  font-size: 17px;
+  line-height: 1.7;
+  max-width: 100%;
+  color: var(--text-color);
+}
+
+.vacancies-content a {
+  font-size: 12px;
+  line-height: 1.7;
+  font-weight: 700;
+  color: var(--light-accent-color);
+}
+
+.vacancies-content a:hover {
+  text-decoration: underline;
+}
+
+.team-cards-container {}
+
+.personal-card img {
+  max-width: 295px;
+  max-height: 365px;
+}
+
+.personal-card {
+  max-width: 295px;
+}
+
+.card-name {}
+
+.card-work-position {
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.main__team-divider hr {
+  max-width: 1170px;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+}
+
+
+.main__team-slider {
+  max-width: 1200px;
+}
+
+.slide-img {
+  max-width: 204px;
+}
+
+.slide-img img {
+  max-width: 204px;
+}
+
+.main__team-information-request {
+  min-height: 120px;
+  background-color: var(--brand-color);
+}
+
+.main__team-information-request p,
+.main__team-information-request a {
+  background-color: inherit;
+}
+
+.invitation-request {
+  font-family: Rajdhani, sans-serif;
+  font-size: 38px;
+  color: rgb(3, 31, 53);
+}
+
+.invitation-request-btn {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 223px;
+  height: 50px;
+  color: rgb(3, 31, 53);
+  border-radius: 8px;
+}
+
+.invitation-request-btn a {
+  font-size: 13.2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.invitation-request-btn:hover {
+  background-color: var(--light-accent-color);
+  transition: all 0.2s ease-in;
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
+
+* {
+  background-color: rgb(3, 31, 53);
+}
+
+:root {
+  font-size: 17px;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  --brand-color: rgb(255, 168, 0);
+  --light-accent-color: rgb(0, 137, 182);
+  --title-color: rgb(255, 255, 255);
+  --subtitle-color: rgb(214, 215, 222);
+  --text-color: rgb(171, 172, 184);
+}

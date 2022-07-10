@@ -3,6 +3,15 @@
 
 body {
   background-color: rgb(3, 31, 53);
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 :root {
@@ -14,4 +23,5 @@ body {
   --title-color: rgb(255, 255, 255);
   --subtitle-color: rgb(214, 215, 222);
   --text-color: rgb(171, 172, 184);
+  --max-with-container: 1200px
 }

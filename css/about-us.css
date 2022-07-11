@@ -7,25 +7,26 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    gap: 50px;
+    margin: 20px 0px;
 
 }
 .aboutus__photo {
     width: 570px;
     height: 544px;
-    margin-right: 20px;
-}
-.aboutus__y-element {
-    color: #ffa800;
 }
 .container__w-text {
     width: 600px;
     height: 544px;
     padding: 10px;
-    margin-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+.aboutus__y-element {
+    color: #ffa800;
+}
+
 .aboutus__text-l-grey {
     color: rgb(214,215,222);
     margin-top: 30px;
@@ -40,12 +41,13 @@
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+   justify-content: space-between;
 }
 .stat-y-text {
-    color: #ffa800;
+    color: var(--brand-color);
     font-size: 40px;
     font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
 }
 .stat-sub-text {
     margin-top: 10px;

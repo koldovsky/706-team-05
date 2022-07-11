@@ -8,12 +8,6 @@ img {
 a {
     text-decoration: none;
 }
-:root {
-    font-family: 'Heebo', sans-serif;
-    font-size: 16px;
-    --text-color: #fff;
-    --button-color: #ffa800;
-}
 .header {
   background-image: url(../img/header-bg.png);
   height: 100vh;
@@ -48,7 +42,7 @@ a {
 }
 .header__menu-link {
   font-weight: 700;
-  color: var(--text-color);
+  color: var(--title-color);
   font-size: 16px;
   position: relative;
   transition: 0.3s ease;
@@ -71,17 +65,17 @@ a {
   width: 100%;
 }
 .header__menu-link:hover {
-  color: var(--button-color);
+  color: var(--brand-color);
 }
 
 .link__tell {
-  color: var(--text-color);
+  color: var(--title-color);
   font-size: 25px;
   line-height: 34px;
   font-family: 'Rajdhani', sans-serif;
 }
 .header__tell {
-  color: var(--button-color);
+  color: var(--brand-color);
 }
 .link__tell:hover {
   text-decoration: underline;
@@ -91,7 +85,7 @@ a {
   font-size: 74px;
   line-height: 79px;
   font-weight: 700;
-  color: var(--text-color);
+  color: var(--title-color);
   text-align: left;
   margin-top: 10rem;
 }
@@ -107,12 +101,12 @@ a {
   letter-spacing: .1em;
   background-color: #ffa800;
   text-transform: uppercase;
-  color: var(--text-color);
+  color: var(--title-color);
   transition: 0.3s ease;
 }
 .header__button:hover {
   background-color: #0089b6;
-  color: var(--text-color);
+  color: var(--title-color);
 }
 .header__btn {
   background-color: transparent;
@@ -121,6 +115,6 @@ a {
   transition: 0.3s ease;
 }
 .header__btn:hover {
-  background-color: var(--text-color);
+  background-color: var(--title-color);
   color: #000000;
 }

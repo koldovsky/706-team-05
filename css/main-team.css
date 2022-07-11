@@ -130,8 +130,9 @@ h4 {
   align-items: center;
   width: 223px;
   height: 50px;
-  color: rgb(3, 31, 53);
+  background-color: rgb(3, 31, 53);
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .invitation-request-btn a {

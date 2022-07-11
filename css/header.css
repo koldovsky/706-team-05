@@ -101,7 +101,7 @@ a {
   letter-spacing: .1em;
   background-color: #ffa800;
   text-transform: uppercase;
-  color: var(--text-color);
+  color: var(--title-color);
   transition: 0.3s ease;
 }
 .header__button:hover {

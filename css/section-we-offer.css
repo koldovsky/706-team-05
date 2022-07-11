@@ -7,7 +7,6 @@
 }
 
 .we-offer__image {
-
     object-fit:cover; 
     object-position:30%; 
     width:100%; 
@@ -18,7 +17,10 @@
     line-height: 28px;
     color: var(--text-color);
     margin: auto;
-    
+}
+
+.we-offer__content-header { 
+    font-family: Rajdhani, sans-serif; 
 }
 
 .we-offer__content-header-line {
@@ -35,6 +37,13 @@
     font-size: 19px;
     font-weight: 500;
     color: var(--subtitle-color);
+}
+
+.we-offer__content-accordion-label { 
+    font-size: 25px; 
+    font-weight: 700; 
+    font-family: Rajdhani, sans-serif; 
+    color: white; 
 }
 
 .we-offer-button {

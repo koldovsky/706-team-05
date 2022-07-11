@@ -28,16 +28,16 @@
 }
 .aboutus__text-l-grey {
     color: rgb(214,215,222);
-    margin-top: 25px;
+    margin-top: 30px;
     font-size: 19px;
     font-weight: 600;
 }
 .aboutus__text {
     color: rgb(171,172,184);
-    margin-top: 25px;
+    margin-top: 30px;
 }
 .aboutus__statistic {
-    margin-top: 25px;
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -45,7 +45,7 @@
 .stat-y-text {
     color: #ffa800;
     font-size: 40px;
-    font-weight: 700;
+    font-weight: bold;
 }
 .stat-sub-text {
     margin-top: 10px;

@@ -24,17 +24,17 @@
     justify-content: center;
 }
 .aboutus__y-element {
-    color: #ffa800;
+    color: var(--brand-color);
 }
 
 .aboutus__text-l-grey {
-    color: rgb(214,215,222);
+    color: var(--subtitle-color);
     margin-top: 30px;
     font-size: 19px;
     font-weight: 600;
 }
 .aboutus__text {
-    color: rgb(171,172,184);
+    color: var(--text-color);
     margin-top: 30px;
 }
 .aboutus__statistic {
@@ -51,6 +51,6 @@
 }
 .stat-sub-text {
     margin-top: 10px;
-    color: rgb(171,172,184);
+    color: var(--text-color);
     font-weight: 700;
 }

@@ -88,7 +88,7 @@
 
 .header__title {
   font-family: 'Rajdhani', sans-serif;
-  font-size: 74px;
+  font-size: calc(44px + 30 * (100vw / 1280));
   line-height: 79px;
   font-weight: 700;
   color: var(--title-color);

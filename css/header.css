@@ -9,31 +9,38 @@
   background-position: center;
   background-size: cover;
 }
+
 .container {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 20px;
 }
+
 .header__top {
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
 }
+
 .header__logo {
   max-width: 180px;
   margin-left: 15px;
 }
+
 .header__nav {
   padding-top: 5px;
 }
+
 .header__menu {
   display: flex;
   list-style-type: none;
 }
-.header__menu-item + .header__menu-item {
+
+.header__menu-item+.header__menu-item {
   margin-left: 30px;
 }
+
 .header__menu-link {
   font-weight: 700;
   color: var(--title-color);
@@ -41,7 +48,7 @@
   position: relative;
   transition: 0.3s ease;
 }
- 
+
 .header__menu-link::after {
   content: ' ';
   display: inline-block;
@@ -53,11 +60,13 @@
   left: 0;
   opacity: 0;
 }
+
 .header__menu-link:hover::after {
   opacity: 1;
   transition: 0.3s ease;
   width: 100%;
 }
+
 .header__menu-link:hover {
   color: var(--brand-color);
 }
@@ -68,12 +77,15 @@
   line-height: 34px;
   font-family: 'Rajdhani', sans-serif;
 }
+
 .header__tell {
   color: var(--brand-color);
 }
+
 .link__tell:hover {
   text-decoration: underline;
 }
+
 .header__title {
   font-family: 'Rajdhani', sans-serif;
   font-size: 74px;
@@ -83,9 +95,11 @@
   text-align: left;
   margin-top: 10rem;
 }
-.header__butons{
+
+.header__butons {
   margin-top: 65px;
 }
+
 .header__button {
   padding: 17px 40px;
   border-radius: 8px;
@@ -98,17 +112,45 @@
   color: var(--title-color);
   transition: 0.3s ease;
 }
+
 .header__button:hover {
   background-color: var(--light-accent-color);
   color: var(--title-color);
 }
+
 .header__btn {
   background-color: transparent;
   border: 2px solid var(--title-color);
   margin-left: 20px;
   transition: 0.3s ease;
 }
+
 .header__btn:hover {
   background-color: var(--title-color);
   color: #000000;
+}
+
+@media (max-width: 1000px) {
+
+  .header__nav,
+  .link__tell {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__butons {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+  }
+
+  .header__button {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .header__btn {
+    margin-left: 0;
+  }
 }

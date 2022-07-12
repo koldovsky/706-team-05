@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
 
-img {
-  display: block;
-  width: 100%;
-}
-a {
-    text-decoration: none;
-}
+
 .header {
   background-image: url(../img/header-bg.png);
   height: 100vh;
@@ -53,7 +47,7 @@ a {
   display: inline-block;
   width: 0%;
   height: 2px;
-  background-color: #fff;
+  background-color: var(--title-color);
   position: absolute;
   bottom: -6px;
   left: 0;
@@ -99,18 +93,18 @@ a {
   line-height: 1.2em;
   letter-spacing: 0;
   letter-spacing: .1em;
-  background-color: #ffa800;
+  background-color: var(--brand-color);
   text-transform: uppercase;
   color: var(--title-color);
   transition: 0.3s ease;
 }
 .header__button:hover {
-  background-color: #0089b6;
+  background-color: var(--light-accent-color);
   color: var(--title-color);
 }
 .header__btn {
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 2px solid var(--title-color);
   margin-left: 20px;
   transition: 0.3s ease;
 }

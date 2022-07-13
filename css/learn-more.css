@@ -1,4 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
 .contacts   {
-    background: #ffa800;
+    background: var(--brand-color);
     text-align: center;
 }
+.contacts h2 {
+    color: var(--background-color);
+    font-size: 34px;
+    font-family: 'Rajdhani', sans-serif;  
+}
+.button-request-content  {
+   color: var(--title-color);
+}
+.button-request  {
+    margin-bottom: 3px;
+}
+.divider {
+    color: var(--brand-color);
+}
+.dot    {
+    color: var(--light-accent-color);
+    }
+.learn-more  {
+    color: var(--title-color);
+    font-size: 34px;
+    font-family: 'rajdhani', sans-serif; 
+    font-weight: bold;
+    }
+.invitation {
+    color: var(--subtitle-color);
+    font-size: 19px;
+    }
+.date-set {
+    display:flex;
+    font-size: 13px;
+    color: var(--brand-color);
+    font-family: 'rajdhani', sans-serif;
+    text-transform: uppercase;
+    
+}
+.architecture   {
+    color: var(--title-color);
+    font-size: 22px;
+    font-family: 'rajdhani', sans-serif;
+    }
+.architecture-meaning   {
+    color: var(--text-color);
+   }
+.more-info  {
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--light-accent-color);
+   }
+.right-row  {
+    color: var(--brand-color);
+    }
+.professional-blog   {
+    color: var(--title-color);
+    font-size: 22px;
+    font-family: 'rajdhani', sans-serif;
+   }
+.our-invitation {
+   color: var(--text-color);
+    }

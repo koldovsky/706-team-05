@@ -1,56 +1,65 @@
 .aboutus {
-    
+    margin-top: 60px;
+    padding-bottom: 60px;
     width: 100%;
-    height: 100%;
-    padding: 100px;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;
-    margin: 20px 0px;
-
 }
 .aboutus__photo {
-    width: 570px;
-    height: 544px;
+    width: 514px;
 }
 .container__w-text {
-    width: 600px;
-    height: 544px;
-    padding: 10px;
+    width: 30%;
+    padding: 60px 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+}
+@media(max-width: 414px) {
+    .container__w-text {
+            width: 100%;
+            padding: 0px 50px;
+            display: flex;
+            flex-direction: column;
+        
+    }
+    .aboutus__photo {
+        width: 80%;
+    }
 }
 .aboutus__y-element {
     color: var(--brand-color);
 }
-
+.aboutus__heading {
+    font-size: 42px;
+}
 .aboutus__text-l-grey {
+    font-size: 17px;
     color: var(--subtitle-color);
-    margin-top: 30px;
-    font-size: 19px;
-    font-weight: 600;
+
 }
 .aboutus__text {
+    font-size: 16px;
     color: var(--text-color);
-    margin-top: 30px;
 }
 .aboutus__statistic {
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-   justify-content: space-between;
+    justify-content: space-around;
+    
+}
+.container-w-stat {
+    text-align: center;
 }
 .stat-y-text {
+    font-size: 45px;
     color: var(--brand-color);
-    font-size: 40px;
-    font-weight: bold;
     font-family: 'Rajdhani', sans-serif;
 }
 .stat-sub-text {
-    margin-top: 10px;
+    font-size: 17px;
     color: var(--text-color);
-    font-weight: 700;
 }

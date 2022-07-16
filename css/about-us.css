@@ -32,6 +32,9 @@
 .aboutus__y-element {
     color: var(--brand-color);
 }
+.aboutus__heading {
+    font-size: 42px;
+}
 .aboutus__text-l-grey {
     font-size: 17px;
     color: var(--subtitle-color);

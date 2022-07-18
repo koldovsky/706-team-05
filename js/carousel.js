@@ -1,4 +1,4 @@
-const rigth = document.getElementById('carousel__bth_right')
+const right = document.getElementById('carousel__bth_right')
 const left = document.getElementById('carousel__bth_left')
 
 let counter = 1;

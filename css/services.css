@@ -1,0 +1,105 @@
+.services-text{
+    color: var(--text-color);
+}
+
+.title-coma{
+    color: var(--light-accent-color);
+}
+
+.services-title{
+    color: var(--title-color);
+  
+}
+
+.services-title-text{
+    color: var(--text-color);
+}
+
+.commercial-text{
+    color: var(--text-color);
+}
+
+.residential-text{
+    color: var(--text-color);
+}
+
+.interiors-text{
+    color: var(--text-color);
+}
+
+.commercial{
+    color: var(--title-color);
+}
+
+.residential{
+    color: var(--title-color);
+}
+
+.interiors{
+    color: var(--title-color);
+}
+
+.services-moduls{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.services-commercial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.services-residental{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.services-interiors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 15px 0;
+    width: 100%;
+    font-weight: 700;
+}
+
+.services-last-text{
+    color: var(--text-color);
+    display: flex;
+    flex-direction:row
+    align-items: center;
+    margin: 10px;
+    padding: 15px 0;
+    width: 100%;
+    font-weight: 500;
+}
+
+.services-call{
+    color: var(--brand-color);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#services{
+    margin: 11pc;
+   
+    padding-bottom: 10px;
+}

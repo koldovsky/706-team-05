@@ -10,7 +10,8 @@ left.addEventListener('click', () => {
     window.location =`/#carousel${counter}`;
 })
 
-rigth.addEventListener('click', () => {
+right.addEventListener('click', () => {
+    console.log('CLICK');
     if (counter < 4)  {
         counter++
     }

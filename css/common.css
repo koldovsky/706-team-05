@@ -17,6 +17,7 @@ main{
   font-family: 'Heebo', sans-serif;
   font-weight: 400;
   --background-color: rgb(3, 31, 53);
+  --background-slider-color: rgb(3, 37, 64);
   --brand-color: rgb(255, 168, 0);
   --light-accent-color: rgb(0, 137, 182);
   --title-color: rgb(255, 255, 255);

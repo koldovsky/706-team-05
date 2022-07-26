@@ -156,34 +156,45 @@
         </div>
       </section>
       <!--3 Bohdan Morar-->
-    <div id="services">
-      <h2 class="sevices-title"><span class="services-call">|</span> We Deliver the Best Services in Different Sectors<span class="title-coma">.</span></h2>
-        <p class="services-title-text">Our team provides expert services in different fields of construction.</p>
-        <div class="services-moduls">
-      <article class="services-commercial">
-        <img width="50" src="img/vector.svg" alt="image of house">
-        <h3 class="commercial">Commercial</h3>
-        <p class="commercial-text">We perform high-quality commercial projects of any complexity.</p>
-        <a href="#" class="card__button">LEARN MORE</a>
-      </article>
-      <article class="services-residental">
-        <img width="50" src="img/group.svg" alt="image of house">
-        <h3 class="residential">Residential</h3>
-        <p class="residential-text">We are proud to build dream houses for our community.</p>
-        <a href="#" class="card__button">LEARN MORE</a>
-      </article>
-      <article class="services-interiors">
-        <img width="50" src="img/vector.svg" alt="our logo">
-        <h3 class="interiors">Interiors</h3>
-        <p class="interiors-text">
-          Need a unique interior design? We can turn any idea into reality.
+      <div id="services">
+        <h2 class="sevices-title">
+          <span class="services-call">|</span> We Deliver the Best Services in
+          Different Sectors<span class="title-coma">.</span>
+        </h2>
+        <p class="services-title-text">
+          Our team provides expert services in different fields of construction.
         </p>
-        <a href="#" class="card__button">LEARN MORE</a>
-      </article>
+        <div class="services-moduls">
+          <article class="services-commercial">
+            <img width="50" src="img/vector.svg" alt="image of house" />
+            <h3 class="commercial">Commercial</h3>
+            <p class="commercial-text">
+              We perform high-quality commercial projects of any complexity.
+            </p>
+            <a href="#" class="card__button">LEARN MORE</a>
+          </article>
+          <article class="services-residental">
+            <img width="50" src="img/group.svg" alt="image of house" />
+            <h3 class="residential">Residential</h3>
+            <p class="residential-text">
+              We are proud to build dream houses for our community.
+            </p>
+            <a href="#" class="card__button">LEARN MORE</a>
+          </article>
+          <article class="services-interiors">
+            <img width="50" src="img/vector.svg" alt="our logo" />
+            <h3 class="interiors">Interiors</h3>
+            <p class="interiors-text">
+              Need a unique interior design? We can turn any idea into reality.
+            </p>
+            <a href="#" class="card__button">LEARN MORE</a>
+          </article>
+        </div>
+        <p class="services-last-text">
+          We offer high-quality construction solutions.
+          <span class="services-call"> Build Your Dream Now!</span>
+        </p>
       </div>
-      <p class="services-last-text">We offer high-quality construction solutions.
-        <span class="services-call"> Build Your Dream Now!</span></p>
-    </div>
       <!--5 Ohorodnyk Kseniia-->
       <div class="we-offer">
         <div class="we-offer-image-wrapper">
@@ -358,40 +369,21 @@
         </div>
 
         <div class="main__team-slider">
-          <div class="slide-img">
-            <img src="./img/giffels-logo.svg" alt="Giffels Logo" />
-          </div>
-          <div class="slide-img">
-            <img
-              src="./img/cca-logo.svg"
-              alt="Canadian Construction Association Logo"
-            />
-          </div>
-          <div class="slide-img">
-            <img
-              src="./img/bcca-logo.svg"
-              alt="British Columbia Construction Association Logo"
-            />
-          </div>
-          <div class="slide-img">
-            <img src="./img/wsp-logo.svg" alt="WSP Logo" />
-          </div>
-          <div class="slide-img">
-            <img src="./img/aecom-logo.svg" alt="AECOM Logo" />
-          </div>
-          <div class="slide-img">
-            <img src="./img/interior-logo.svg" alt="Interior Logo" />
-          </div>
+          <button class="slider-prev-btn">&#10094;</button>
+          <div class="slides-container"></div>
+          <button class="slider-next-btn">&#10095;</button>
         </div>
       </section>
       <section class="main__team-information-request">
-        <h4 class="information-request-title">
-          Stop Dreaming! Start Building.
-        </h4>
-        <div class="invitation-request-btn">
-          <a href="#" data-bs-toggle="modal" data-bs-target="#contact-form"
-            >request a quote</a
-          >
+        <div class="information-request-container">
+          <h4 class="information-request-title">
+            Stop Dreaming! Start Building.
+          </h4>
+          <div class="invitation-request-btn">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#contact-form">
+              request a quote
+            </a>
+          </div>
         </div>
       </section>
       <!--8 Sofi-->
@@ -680,6 +672,7 @@
         </div>
       </div>
     </div>
+    <script src="js/team-slider.js"></script>
     <script
       src="https://unpkg.com/lightgallery@2.5.0/lightgallery.umd.js"
       crossorigin="anonymous"
@@ -691,7 +684,7 @@
       referrerpolicy="no-referrer"
     ></script>
     // https://unpkg.com/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js
-    <script src="js/carousel.js"></script>
+    <!-- <script src="js/carousel.js"></script> -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"

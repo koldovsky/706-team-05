@@ -1,105 +1,132 @@
-.services-text{
+.services-text {
     color: var(--text-color);
 }
 
-.title-coma{
+.second-title-column {
+    color: var(--text-color);
+}
+
+.title-coma {
     color: var(--light-accent-color);
 }
 
-.services-title{
+.services-title {
     color: var(--title-color);
-  
+
 }
 
-.services-title-text{
+.services-title-text {
     color: var(--text-color);
 }
 
-.commercial-text{
+.commercial-text {
     color: var(--text-color);
 }
 
-.residential-text{
+.residential-text {
     color: var(--text-color);
 }
 
-.interiors-text{
+.interiors-text {
     color: var(--text-color);
 }
 
-.commercial{
+.commercial {
     color: var(--title-color);
 }
 
-.residential{
+.residential {
     color: var(--title-color);
 }
 
-.interiors{
+.interiors {
     color: var(--title-color);
 }
 
-.services-moduls{
+.services-moduls {
     margin-top: 60px;
-    display: flex;
+    display: grid;
     flex-direction: row;
     justify-content: center;
+    gap: 30px;
+    grid-template-columns: 350px 350px 350px;
 }
 
-.services-commercial{
+.services-commercial {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin: 10px;
-    padding: 15px 0;
+    padding: 15px 15px 15px 15px;
     width: 100%;
     text-transform: uppercase;
     font-weight: 700;
+    background-color: #032540;
 }
 
-.services-residental{
+.services-residental {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin: 10px;
-    padding: 15px 0;
+    padding: 15px 15px 15px 15px;
     width: 100%;
     text-transform: uppercase;
     font-weight: 700;
+    background-color: #032540;
 }
 
-.services-interiors{
+.services-interiors {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin: 10px;
-    padding: 15px 0;
+    padding: 15px 15px 15px 15px;
     width: 100%;
     font-weight: 700;
+    background-color: #032540;
 }
 
-.services-last-text{
+.services-last-text {
     color: var(--text-color);
     display: flex;
-    flex-direction:row
-    align-items: center;
+    flex-direction: row align-items: center;
     margin: 10px;
     padding: 15px 0;
     width: 100%;
     font-weight: 500;
 }
 
-.services-call{
+.services-call {
     color: var(--brand-color);
     font-weight: 700;
     text-transform: uppercase;
 }
 
-#services{
-    margin: 11pc;
-   
-    padding-bottom: 10px;
+#services {
+    margin: 55px 120px 55px 120px;
+}
+
+.title-moduls {
+    margin: 0px 0px 0px 0px;
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 450px 1fr;
+}
+
+.first-title-column {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+}
+
+.second-title-column {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    text-align: right;
 }

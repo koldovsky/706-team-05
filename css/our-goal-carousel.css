@@ -21,11 +21,11 @@
   top: 15px;
 }
 
-.our-goal-btn .material-symbols-outlined {
+.our-goal-btn .material-icons {
   font-size: 2rem;
   color: var(--text-color);
 }
-.our-goal-btn .material-symbols-outlined:hover {
+.our-goal-btn .material-icons:hover {
   color: var(--title-color);
 }
 .prev {

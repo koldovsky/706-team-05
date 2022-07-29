@@ -317,37 +317,55 @@
             </p>
           </div>
           <div class="request-right">
-            <a href="#" class="request-btn" data-bs-toggle="modal" data-bs-target="#contact-form">REQUEST A QUOTE</a>
+            <a
+              href="#"
+              class="request-btn"
+              data-bs-toggle="modal"
+              data-bs-target="#contact-form"
+              >REQUEST A QUOTE</a
+            >
           </div>
         </div>
       </div>
       <div class="goal-gallery" id="lg-share-demo">
         <div class="grid1">
-          <div>
-            <a class="item" href="img/gallery1.png">
-              <img src="img/gallery1.png" alt="Engineers discussion" />
-            </a>
+          <div class="our-image">
+            <img src="img/gallery1.png" alt="Engineers discussion" data-index="0" />
           </div>
-          <div>
-            <a class="item" href="img/gallery4.png"><img src="img/gallery4.png" alt="Building hall" /></a>
+          <div class="our-image">
+            <img src="img/gallery4.png" alt="Building hall" data-index="3"/>
           </div>
         </div>
         <div class="grid2">
-          <div>
-            <a class="item" href="img/gallery2.png"><img src="img/gallery2.png" alt="building outside" /></a>
+          <div class="our-image">
+            <img src="img/gallery2.png" alt="Building outside" data-index="1" />
           </div>
-          <div>
-            <a class="item" href="img/gallery6.png"><img src="img/gallery6.png" alt="construction related" /></a>
+          <div class="our-image">
+            <img src="img/gallery5.png" alt="Presentation" data-index="4" />
           </div>
         </div>
         <div class="grid3">
-          <div>
-            <a class="item" href="img/gallery3.png"><img src="img/gallery3.png" alt="engineer plan" /></a>
+          <div class="our-image">
+            <img src="img/gallery3.png" alt="Engineer plan" data-index="2"/>
           </div>
-          <div>
-            <a class="item" href="img/gallery5.png"><img src="img/gallery5.png" alt="presentation" /></a>
+          <div class="our-image">
+            <img src="img/gallery6.png" alt="Construction related" data-index="5"/>
           </div>
         </div>
+      </div>
+      <div class="our-goal-photo-container">
+        <div class="our-goal-photo-wrapper">
+          <div class="our-goals-slides"></div>
+        </div>
+        <button class="our-goal-btn prev">
+          <span class="material-symbols-outlined"> chevron_left </span>
+        </button>
+        <button class="our-goal-btn next">
+          <span class="material-symbols-outlined"> chevron_right </span>
+        </button>
+        <button class="our-goal-btn ext">
+          <span class="material-symbols-outlined"> close </span>
+        </button>
       </div>
     </section>
 
@@ -455,9 +473,8 @@
     referrerpolicy="no-referrer"></script>
   <script src="https://unpkg.com/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js" crossorigin="anonymous"
     referrerpolicy="no-referrer"></script>
-  // https://unpkg.com/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js
   <script src="js/carousel.js"></script>
-
+  <script src="js/our-goal-carousel.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>

@@ -179,6 +179,11 @@ body {
     padding: 10px;
     padding-left: 20px;
   }
+  @media (min-width: 450px) {
+    .about__text {
+      font-size: 16px;
+    }
+  }
   @media (min-width: 750px) {
     .header__title-about {
       font-family: 'Rajdhani', sans-serif;

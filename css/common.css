@@ -24,6 +24,6 @@ main{
   --subtitle-color: rgb(214, 215, 222);
   --text-color: rgb(171, 172, 184);
   --border-color: rgb(255, 255, 255, 0.5);
-  ---background-card: rgba(3, 37, 64, 0.04);
+  --background-card: rgba(3, 37, 64, 0.04);
   --max-with-container: 1200px;
 }

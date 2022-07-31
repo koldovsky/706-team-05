@@ -106,7 +106,7 @@ body {
     margin: 140px auto;
     overflow: auto;
   }
-  .heaedr__menu-link-popup {
+  .header__menu-link-popup {
     font-weight: 700;
     color: var(--title-color);
     font-style: 17px;
@@ -114,7 +114,7 @@ body {
     transition: 0.3s ease;
     font-family: 'Heebo', sans-serif;
   }
-  .heaedr__menu-link-popup:hover {
+  .header__menu-link-popup:hover {
     color: var(--brand-color);
   }
   .popup__tell {
@@ -218,7 +218,7 @@ body {
   .header__navbar, .link__tell {
     display: flex;
   }
-  .heaedr__menu-link-about {
+  .header__menu-link-about {
     font-weight: 700;
     color: var(--title-color);
     font-style: 16px;
@@ -226,10 +226,10 @@ body {
     transition: 0.3s ease;
     font-family: 'Heebo', sans-serif;
   }
-  .heaedr__menu-link-about + .heaedr__menu-link-about {
+  .header__menu-link-about + .header__menu-link-about {
     margin-left: 30px;
   }
-  .heaedr__menu-link-about::after {
+  .header__menu-link-about::after {
     content: ' ';
     display: inline-block;
     width: 0%;
@@ -240,12 +240,12 @@ body {
     left: 0;
     opacity: 0;
   }
-  .heaedr__menu-link-about:hover::after {
+  .header__menu-link-about:hover::after {
     opacity: 1;
     transition: 0.3s ease;
     width: 100%;
   }
-  .heaedr__menu-link-about:hover {
+  .header__menu-link-about:hover {
     color: var(--brand-color);
   }
   .link__tell {

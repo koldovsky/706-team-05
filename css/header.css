@@ -104,7 +104,7 @@
     line-height: 79px;
   }
 
-  .heaedr__menu-link {
+  .header__menu-link {
     font-weight: 700;
     color: var(--title-color);
     font-style: 16px;
@@ -112,11 +112,11 @@
     transition: 0.3s ease;
   }
 
-  .heaedr__menu-link+.heaedr__menu-link {
+  .header__menu-link+.header__menu-link {
     margin-left: 30px;
   }
 
-  .heaedr__menu-link::after {
+  .header__menu-link::after {
     content: ' ';
     display: inline-block;
     width: 0%;
@@ -128,13 +128,13 @@
     opacity: 0;
   }
 
-  .heaedr__menu-link:hover::after {
+  .header__menu-link:hover::after {
     opacity: 1;
     transition: 0.3s ease;
     width: 100%;
   }
 
-  .heaedr__menu-link:hover {
+  .header__menu-link:hover {
     color: var(--brand-color);
   }
 

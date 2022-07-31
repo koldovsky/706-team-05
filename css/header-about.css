@@ -55,7 +55,6 @@ body {
     z-index: 10;
   }
 .hamb__field {
-    padding: 10px 20px;
     cursor: pointer;
   }
   .hamb__field.active .bar:nth-child(2) {
@@ -76,7 +75,7 @@ body {
   .bar{
     display: block;
     width: 30px;
-    height: 3px;
+    height: 2px;
     margin: 6px auto;
     background-color: var(--border-color);
     transition: 0.2s;

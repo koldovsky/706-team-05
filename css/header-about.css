@@ -144,7 +144,7 @@ body {
     margin-top: 20px;
   }
   .about__text {
-    font-size: 19px;
+    font-size: 16px;
     font-family: 'Heebo', sans-serif;
     font-weight: 500;
     color: var(--subtitle-color);
@@ -181,7 +181,7 @@ body {
   }
   @media (min-width: 450px) {
     .about__text {
-      font-size: 16px;
+      font-size: 19px;
     }
   }
   @media (min-width: 750px) {

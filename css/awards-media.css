@@ -1,5 +1,17 @@
-.main__awards-media {}
-.media-container {}
+.main__awards-media {
+}
+
+.media-container {
+  padding: 30px 0;
+}
+
+.media-container iframe {
+  width: 100%;
+}
+
+.main__section-divider {
+  padding: 15px 0;
+}
 
 .main__section-divider hr {
   max-width: 1170px;
@@ -7,8 +19,126 @@
   margin-bottom: 30px;
 }
 
-.main__awards-slider {}
-.slider-prev-btn {}
-.slides-container {}
-.slider-next-btn {}
+.main__awards-slider {
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 220px;
+  margin-bottom: 40px;
+  justify-items: center;
+  align-items: center;
+}
 
+.slider-prev-btn,
+.slider-next-btn {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.slider-prev-btn:hover,
+.slider-next-btn:hover {
+  background-color: var(--light-accent-color);
+  transition: all 0.2s ease-in;
+}
+
+.slider-prev-btn {
+  margin-right: -15px;
+  z-index: 3;
+}
+
+.slider-next-btn {
+  margin-left: -15px;
+  z-index: 3;
+}
+
+.slides-container {
+  display: flex;
+  width: 100%;
+}
+
+.slide-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 150px;
+  background-color: var(--background-slider-color);
+  margin: 0 15px;
+}
+
+.slide-img img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.main__contacts {
+  min-height: 300px;
+}
+
+.information-request-container {
+  max-width: 650px;
+  margin: auto;
+}
+
+.information-request-title {
+  padding: 10px;
+  margin-bottom: 30px;
+  font-family: Rajdhani, sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.14;
+  color: var(--title-color);
+  text-align: center;
+}
+
+.invitation-request-btn {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 223px;
+  height: 50px;
+  background-color: var(--brand-color);
+  border-radius: 8px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.invitation-request-btn a {
+  font-size: 13.2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--title-color);
+  background-color: transparent;
+}
+
+.invitation-request-btn:hover {
+  background-color: var(--light-accent-color);
+  transition: all 0.2s ease-in;
+}
+
+@media (min-width: 580px) {
+  .media-container iframe {
+    height: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .information-request-title {
+    font-size: 41px;
+  }
+}
+
+@media (min-width: 800px) {
+  .media-container iframe {
+    height: 500px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .media-container iframe {
+    height: 550px;
+  }
+}

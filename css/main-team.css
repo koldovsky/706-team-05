@@ -112,7 +112,7 @@ h4 {
   color: var(--text-color);
 }
 
-.main__team-divider hr {
+.main__section-divider hr {
   max-width: 1170px;
   border-bottom: 1px solid var(--border-color);
   margin-bottom: 30px;

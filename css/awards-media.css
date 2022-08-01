@@ -1,0 +1,14 @@
+.main__awards-media {}
+.media-container {}
+
+.main__section-divider hr {
+  max-width: 1170px;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 30px;
+}
+
+.main__awards-slider {}
+.slider-prev-btn {}
+.slides-container {}
+.slider-next-btn {}
+

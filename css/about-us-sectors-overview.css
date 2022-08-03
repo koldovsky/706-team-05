@@ -1,0 +1,80 @@
+.sectors-overview {
+padding: 40px 20px;
+}
+.sectors-overview-header-line {
+    font-family: inherit;
+    color: var(--brand-color);
+}
+
+.sectors-overview-header-fullstop {
+    font-family: inherit;
+    color: var(--light-accent-color);
+}
+
+.sectors-overview-p-request-quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sectors-overview-button {
+    align-self: flex-end;
+    margin-bottom: 30px;
+}
+
+.sectors-overview-slider-prev-btn {
+background-color: transparent;
+cursor: pointer;
+border: 0;
+font-size: 16px;
+top: 50%;
+left: 50%;
+}
+
+.sectors-overview-slider-next-btn {
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    font-size: 16px;
+    top: 50%;
+    left: 50%;
+    }
+
+
+.sectors-overview-slider {
+    display: flex;
+    
+}
+
+.sectors-overview-slides-container {
+    display: flex;
+}
+
+.sectors-overview-slide {
+    padding: 40px 20px;
+}
+
+.sectors-overview-slides-container img {
+    object-fit: cover; 
+    height: 350px;
+    width: 100%; 
+}
+
+@media (min-width: 760px) {
+    .sectors-overview-p-request-quote-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .sectors-overview-button {
+        align-self: center;
+        margin-bottom: 0;
+    }
+
+    .sectors-overview-slides-container img {
+        object-fit: cover; 
+        height: 200px;
+        width: 100%; 
+    }
+
+}

@@ -1,5 +1,10 @@
 .sectors-overview {
-padding: 40px 20px;
+    padding: 40px 20px;
+}
+.sectors-overview-header {
+    font-family: Rajdhani, sans-serif;
+    font-size: 41px;
+    color: white;
 }
 .sectors-overview-header-line {
     font-family: inherit;

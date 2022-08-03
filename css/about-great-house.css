@@ -1,0 +1,70 @@
+.about-g-h {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-g-h__photo {
+    width: 30%;
+}
+.about-g-h_top {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap; 
+}
+.about-g-h_text-container {
+    width: 30%;
+    padding: 20px 0px;
+}
+.about-g-h__heading {
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-size: 50px;
+    line-height: 38px;
+    font-weight: 700;
+}
+.about-g-h_light-text {
+    font-size: 19px;
+    margin-top: 40px;
+    color: rgb(214,215,222);
+}
+.about-g-h_text {
+    font-size: 17px;
+    margin-top: 40px;
+    color: rgb(171,172,184);
+}
+.container-w-points {
+    margin-top: 35px;
+}
+.point {
+    font-size: 17px;
+    color: rgb(214,215,222);
+}
+.blue-element {
+    color: #0089B6;
+}
+.about-g-h_bottom {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+.about-g-h_card {
+    padding: 20px;
+    background-color: #032540;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.card-heading {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.card-text {
+    font-size: 17px;
+    margin-top: 20px;
+    color: rgb(171,172,184);
+}

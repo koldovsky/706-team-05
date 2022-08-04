@@ -26,12 +26,12 @@
 }
 .about-g-h_light-text {
     font-size: 19px;
-    margin-top: 40px;
+    margin-top: 35px;
     color: rgb(214,215,222);
 }
 .about-g-h_text {
     font-size: 17px;
-    margin-top: 40px;
+    margin-top: 35px;
     color: rgb(171,172,184);
 }
 .container-w-points {
@@ -52,7 +52,7 @@
     flex-wrap: wrap;
 }
 .about-g-h_card {
-    padding: 20px;
+    padding: 30px;
     background-color: #032540;
     width: 30%;
     display: flex;

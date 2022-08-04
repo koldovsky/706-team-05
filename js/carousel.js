@@ -81,15 +81,3 @@
     window.addEventListener('resize', renderCarousel);
 
 })();
-
-/*--Code for gallery our goals--*/
-
-lightGallery(document.getElementById('lg-share-demo'), {
-    selector: '.item',
-    getCaptionFromTitleOrAlt: false,
-    appendCounterTo:false,
-    download:false,
-    actualSize:true,
-    plugins: [lgZoom]
-
-});

@@ -19,7 +19,6 @@
     <img src="img/gallery6.png" alt="Construction related">
     </div>`,
   ];
-  //query selectors
   const ourImageBox = document.querySelectorAll(".our-image img");
   const ourGoalContainer = document.querySelector(".our-goal-photo-container");
 
@@ -27,7 +26,7 @@
   function renderCarousel() {
     const slidesBoxContainer = document.querySelector(".our-goal-photo-wrapper" );
     slidesBoxContainer.innerHTML = slidesBox[currentSlideIndex];
-  } // carousel for the first slide
+  } 
 
   function next() {
     currentSlideIndex =
@@ -41,7 +40,6 @@
   }
   const ourActiveContainer = () => {ourGoalContainer.classList.add('active');}
   const ourRemovedContainer = () => {ourGoalContainer.classList.remove('active');}
-//   const ourActiveImage = (image) => {slidesBox}
 
   const nextBtn = document.querySelector(".our-goal-btn.next");
   nextBtn.addEventListener("click", next);

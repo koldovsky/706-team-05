@@ -3,129 +3,131 @@
 }
 
 @media (min-width:500px) {
- #services {margin: 55px 120px 55px 120px;}
+    #services {
+        margin: 55px 120px 55px 120px;
+    }
 }
 
 .services-call {
-  color: var(--brand-color);
-  font-weight: 700;
-  text-transform: uppercase;
+    color: var(--brand-color);
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .services-text {
-  color: var(--text-color);
+    color: var(--text-color);
 }
 
 .second-title-column {
-  color: var(--text-color);
+    color: var(--text-color);
 }
 
 .title-coma {
-  color: var(--light-accent-color);
+    color: var(--light-accent-color);
 }
 
 .services-title {
-  color: var(--title-color);
+    color: var(--title-color);
 }
 
 .commercial-text {
-  color: var(--text-color);
+    color: var(--text-color);
 }
 
 .residential-text {
-  color: var(--text-color);
+    color: var(--text-color);
 }
 
 .interiors-text {
-  color: var(--text-color);
+    color: var(--text-color);
 }
 
 .commercial {
-  color: var(--title-color);
+    color: var(--title-color);
 }
 
 .residential {
-  color: var(--title-color);
+    color: var(--title-color);
 }
 
 .interiors {
-  color: var(--title-color);
+    color: var(--title-color);
 }
 
 .services-moduls {
-  margin-top: 60px;
-  display: grid;
-  gap: 30px;
-justify-content: center;
+    margin-top: 60px;
+    display: grid;
+    gap: 30px;
+    justify-content: center;
 }
 
 .services-commercial {
-  display: flex;
-flex-direction: column;
-align-items: center;
-  margin: 10px;
-  padding: 15px 15px 15px 15px;
-  text-transform: uppercase;
-  font-weight: 700;
-  background-color: #032540;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 15px 15px 15px 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #032540;
 }
 
 .services-residental {
-  display: flex;
-flex-direction: column;
-align-items: center;
-  margin: 10px;
-  padding: 15px 15px 15px 15px;
-  text-transform: uppercase;
-  font-weight: 700;
-  background-color: #032540;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 15px 15px 15px 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #032540;
 }
 
 .services-interiors {
-  display: flex;
-flex-direction: column;
-align-items: center;
-  margin: 10px;
-  padding: 15px 15px 15px 15px;
-text-transform: uppercase;
-  font-weight: 700;
-  background-color: #032540;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 15px 15px 15px 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #032540;
 }
 
 .services-last-text {
-  color: var(--text-color);
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-  padding: 15px 0;
-  width: 100%;
-  font-weight: 500;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 15px 0;
+    width: 100%;
+    font-weight: 500;
 }
 
 @media (min-width:500px) {
-.services-moduls {
-  display: flex;
-}
+    .services-moduls {
+        display: flex;
+    }
 }
 
 .title-moduls {
-  margin: 0px 0px 0px 0px;
-  display: flex;
-  grid-template-columns: 300px 1fr;
-flex-direction: column;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    grid-template-columns: 300px 1fr;
+    flex-direction: column;
 }
 
 .second-title-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
 }
 
 .services-title-text {
-  color: var(--text-color);
-display: flex;
-  flex-direction: column;
-  align-items: left;
-  text-align: left;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
 }

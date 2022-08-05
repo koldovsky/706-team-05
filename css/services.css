@@ -2,7 +2,7 @@
     padding: 0 24px;
 }
 
-@media (min-width:500px) {
+@media (min-width: 500px) {
     #services {
         margin: 55px 120px 55px 120px;
     }
@@ -66,7 +66,7 @@
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    padding: 15px 15px 15px 15px;
+    padding: 35px 35px 35px 35px
     text-transform: uppercase;
     font-weight: 700;
     background-color: #032540;
@@ -77,7 +77,7 @@
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    padding: 15px 15px 15px 15px;
+    padding: 35px 35px 35px 35px
     text-transform: uppercase;
     font-weight: 700;
     background-color: #032540;
@@ -88,7 +88,7 @@
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    padding: 15px 15px 15px 15px;
+    padding: 35px 35px 35px 35px
     text-transform: uppercase;
     font-weight: 700;
     background-color: #032540;
@@ -104,7 +104,7 @@
     font-weight: 500;
 }
 
-@media (min-width:500px) {
+@media (min-width: 500px) {
     .services-moduls {
         display: flex;
     }
@@ -130,4 +130,5 @@
     flex-direction: column;
     align-items: left;
     text-align: left;
+    font-weight: 500;
 }

@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Great House</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/learn-more.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.6.0-beta.1/css/lightgallery-bundle.min.css" />
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+  <!--1 Denys -->
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <a class="header__logo" href="index.html"><img src="img/logo.svg" alt="Logo" /></a>
+        <nav class="header__nav">
+          <a href="about.html" class="header__menu-link">About us</a>
+          <a href="#" class="header__menu-link">Sectors</a>
+          <a href="#" class="header__menu-link">Services</a>
+          <a href="#" class="header__menu-link">Projects</a>
+          <a href="#" class="header__menu-link">Contacts</a>
+          <div class="clock"></div>
+        </nav>
+        <nav class="navbar bg-light fixed-top">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="about.html">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sectors</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="tel:12345678900">☎ +1 (234) 567 89 00</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <a class="link__tell" href="tel:12345678900"><span class="header__tell">☎</span> +1 (234) 567 89 00</a>
+      </div>
+      <h1 class="header__title">
+        We Deliver High-Quality<br />
+        Engineering Projects<span class="title__sp">.</span>
+      </h1>
+      <div class="header__butons">
+        <a href="#" class="header__button" data-bs-toggle="modal" data-bs-target="#contact-form">Request a quote</a>
+        <a href="#" class="header__button header__btn">Learn more</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!--2 Yuri Mytko-->
+    <section class="aboutus">
+      <div class="aboutus__photo">
+        <img src="img/engineer.png" alt="engineer" />
+      </div>
+      <div class="container__w-text">
+        <h2 class="aboutus__heading">
+          <span class="aboutus__y-element">|</span> Shortly About Us.
+        </h2>
+        <p class="aboutus__text-l-grey">
+          We offer residential and commercial construction services throughout
+          the USA.
+        </p>
+        <p class="aboutus__text">
+          We are a leading construction company with 30+ years of experience
+          in the industry. We are dedicated to providing the highest quality
+          construction services to our customers meeting their special needs
+          on schedule and within their budgets. Client satisfaction is always
+          our first priority.
+        </p>
+        <p class="aboutus__text">
+          We are engaged in construction of industrial, residential,
+          commercial, healthcare, and other types of buildings.
+        </p>
+        <div class="aboutus__statistic">
+          <div class="container-w-stat">
+            <span class="stat-y-text">300+</span>
+            <p class="stat-sub-text">Satisfied clients</p>
+          </div>
+          <div class="container-w-stat">
+            <span class="stat-y-text">60k+</span>
+            <p class="stat-sub-text">Sq ft built</p>
+          </div>
+          <div class="container-w-stat">
+            <span class="stat-y-text">25</span>
+            <p class="stat-sub-text">Years on the market</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--3 Bohdan Morar-->
+    <div id="services">
+      <div class="title-moduls">
+        <div class="first-title-column">
+          <h2 class="sevices-title">
+            <p class="services-call-text"></p><span class="services-call">|</span> We Deliver the Best Services in
+              Different Sectors<span class="title-coma">.</span></p>
+          </h2>
+          <p class="services-title-text">
+            Our team provides expert services in different fields of construction.
+          </p>
+        </div>
+        <a href="#" class="second-title-column">View More</a>
+      </div>
+      <div class="services-moduls">
+        <article class="services-commercial">
+          <img width="50" src="img/vector.svg" alt="image of house" />
+          <h3 class="commercial">Commercial</h3>
+          <p class="commercial-text">
+            We perform high-quality commercial projects of any complexity.
+          </p>
+          <a href="#" class="card__button">LEARN MORE</a>
+        </article>
+        <article class="services-residental">
+          <img width="50" src="img/group.svg" alt="image of house" />
+          <h3 class="residential">Residential</h3>
+          <p class="residential-text">
+            We are proud to build dream houses for our community.
+          </p>
+          <a href="#" class="card__button">LEARN MORE</a>
+        </article>
+        <article class="services-interiors">
+          <img width="50" src="img/vector.svg" alt="our logo" />
+          <h3 class="interiors">Interiors</h3>
+          <p class="interiors-text">
+            Need a unique interior design? We can turn any idea into reality.
+          </p>
+          <a href="#" class="card__button">LEARN MORE</a>
+        </article>
+      </div>
+      <p class="services-last-text">
+        We offer high-quality construction solutions. <span class="services-call"> Build Your Dream Now!</span>
+      </p>
+    </div>
+    <!--5 Ohorodnyk Kseniia-->
+    <div class="we-offer">
+      <div class="we-offer-image-wrapper">
+        <img class="we-offer__image" src="img/man-on-costruction-site.png"
+          alt="Man on construction site wearing yellow helmet and gloves" />
+      </div>
+      <article class="we-offer__content">
+        <h2 class="we-offer__content-header">
+          <span class="we-offer__content-header-line">|</span> We Offer All
+          Kinds of Construction Services<span class="we-offer__content-header-fullstop">.</span>
+        </h2>
+        <p class="we-offer__content-subheader">
+          Whatever your task is, we can implement it delivering the highest
+          quality possible.
+        </p>
+        <p class="we-offer__content-description">
+          Due to our extensive experience in different fields and a
+          professional team of engineers, constructors, and designers, we can
+          implement your project of any complexity in the following areas:
+        </p>
+        <div class="we-offer-accordion-wrapper">
+          <div class="accordion accordion-flush" id="accordionFlush">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  How can I make the order?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                  You should choose the plan which meets your needs and
+                  requirements and send us a message to place the order. You
+                  can also make it online.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  What if I don’t know what plan I need?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                  Our specialist can help you assess your particular issue and
+                  define which plan suits you the most. Feel free to contact
+                  us.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  What payment options do you provide?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlush">
+                <div class="accordion-body">
+                  We offer a variety of payment methods. We accept cash,
+                  checks, and the majority of credit cards such as Visa,
+                  MasterCard, and American Express.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="we-offer-button">
+            <a class="we-offer-button-button" href="about.html">Learn more</a>
+          </div>
+        </div>
+      </article>
+    </div>
+    <!--6 7 Andrii Mykolaichyk-->
+    <section class="main__team-container">
+      <div class="main__team-content">
+        <div class="title-container">
+          <div class="team-title">
+            <h2>
+              <span class="title-vertical-line">|</span> Great Results Depend
+              on a Professional Team<span class="title-dot">.</span>
+            </h2>
+            <p class="team-subtitle">
+              Meet our experienced managers, engineers, and constructors.
+            </p>
+          </div>
+
+          <div class="team-vacancies">
+            <img class="vacancies-logo" src="./img/vacancies-logo.png" alt="Vacancies Logo" />
+            <div class="vacancies-content">
+              <h4>Check our vacancies!</h4>
+              <p>You can work with us.</p>
+              <a href="#">VIEW VACANCIES</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-cards-container">
+          <div class="personal-card">
+            <img src="./img/tony-pearson-photo.png" alt="Company Owner and Project Manager Tony Pearson" />
+            <h4 class="card-name">Tony Pearson</h4>
+            <p class="card-work-position">Owner/Project Manager</p>
+          </div>
+          <div class="personal-card">
+            <img src="./img/mollie-bonne-photo.png" alt="Chief Executive Officer Mollie Bonne" />
+            <h4 class="card-name">Mollie Bonne</h4>
+            <p class="card-work-position">Chief Executive Officer</p>
+          </div>
+          <div class="personal-card">
+            <img src="./img/andrew-norman-photo.png" alt="Interior Design Project Manager Andrew Norman" />
+            <h4 class="card-name">Andrew Norman</h4>
+            <p class="card-work-position">Interior Design Project Manager</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="main__section-divider">
+        <hr />
+      </div>
+
+      <div class="main__team-slider">
+        <button class="slider-prev-btn">&#10094;</button>
+        <div class="slides-container"></div>
+        <button class="slider-next-btn">&#10095;</button>
+      </div>
+    </section>
+    <section class="main__team-information-request">
+      <div class="information-request-container">
+        <h4 class="information-request-title">
+          Stop Dreaming! Start Building.
+        </h4>
+        <div class="invitation-request-btn">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#contact-form">
+            request a quote
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--9 Tanya Lisna-->
+    <section class="main__goal-block">
+      <div class="goal-container">
+        <div class="goal-title-box">
+          <div class="goal-header-left">
+            <h2 class="header_title">
+              <span class="divider">|</span> Our Main Goal Is to Deliver the
+              Best Quality<span class="dot">.</span>
+            </h2>
+            <p class="subtitle">
+              We work hard to finish every project on schedule.
+            </p>
+          </div>
+          <div class="request-right">
+            <a
+              href="#"
+              class="request-btn"
+              data-bs-toggle="modal"
+              data-bs-target="#contact-form"
+              >REQUEST A QUOTE</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="goal-gallery" id="lg-share-demo">
+        <div class="grid1">
+          <div class="our-image">
+            <img src="img/gallery1.png" alt="Engineers discussion" data-index="0" />
+          </div>
+          <div class="our-image">
+            <img src="img/gallery4.png" alt="Building hall" data-index="3"/>
+          </div>
+        </div>
+        <div class="grid2">
+          <div class="our-image">
+            <img src="img/gallery2.png" alt="Building outside" data-index="1" />
+          </div>
+          <div class="our-image">
+            <img src="img/gallery5.png" alt="Presentation" data-index="4" />
+          </div>
+        </div>
+        <div class="grid3">
+          <div class="our-image">
+            <img src="img/gallery3.png" alt="Engineer plan" data-index="2"/>
+          </div>
+          <div class="our-image">
+            <img src="img/gallery6.png" alt="Construction related" data-index="5"/>
+          </div>
+        </div>
+      </div>
+      <div class="our-goal-photo-container">
+        <div class="our-goal-photo-wrapper">
+          <div class="our-goals-slides"></div>
+        </div>
+        <button class="our-goal-btn prev">
+          <i class="material-icons"> chevron_left </i>
+        </button>
+        <button class="our-goal-btn next">
+          <i class="material-icons"> chevron_right </i>
+        </button>
+        <button class="our-goal-btn ext">
+          <i class="material-icons"> close </i>
+        </button>
+      </div>
+    </section>
+
+    <!--Gennadiy Naumovych 10.11-->
+    <div class="contacts">
+      <h2>
+        Contact Us to Specify Your Next <br />
+        Project Details Right Now!
+      </h2>
+      <button class="button-request">
+        <span class="button-request-content" data-bs-toggle="modal" data-bs-target="#contact-form">request a
+          quote</span>
+      </button>
+      <!--Запит-->
+    </div>
+    <div class="our-contact-info">
+      <div class="learn-more-about-brand">
+        <div class="construction-industry">
+          <div>
+            <h2 class="learn-more">
+              <span class="divider">I</span> Learn more about the <br />
+              Construction industry<span class="dot">.</span>
+            </h2>
+            <p class="invitation">
+              Welcome to our blog with interesting and helpful articles.
+            </p>
+            <p class="date_set">ANN DOE | SEPTEMBER 09, 2021</p>
+            <h3 class="architecture">
+              <strong>Modern Architecture in Big Cities.</strong>
+            </h3>
+            <p class="architecture-meaning">
+              Have you ever wondered how you perceive the city and what effect
+              the architecture you <br />
+              see has on this? Architecture styles and approaches really mean
+              a lot...
+            </p>
+          </div>
+
+          <div>
+            <a href="#" class="more-info">Read more <span class="right-row">→</span>
+            </a>
+            <!--Посилання-->
+          </div>
+          <hr />
+          <div>
+            <img src="img/builders.png" width="100" alt="Two builders" />
+            <h3 class="professional-blog">
+              First Professional Blog on Construction.
+            </h3>
+            <p class="our-invitation">
+              If you are interested in the areas of construction and
+              architecture or <br />
+              work in a construction-related business, we are waiting for you
+              in our <br />
+              professional blog...<a href="#" class="right-row">→</a>
+            </p>
+          </div>
+        </div>
+        <div class="business-center-img">
+          <img src="img/business-center.png" width="500" alt="Business center" />
+        </div>
+      </div>
+    </div>
+    <!--section 10.11-->
+    <!--12 Maria Nikolas-->
+    <div class="container__carousel">
+      <button id="carousel__bth_left" class="carousel__bth_left">
+        <i class="material-icons"> chevron_left </i>
+      </button>
+      <div id="carousel"></div>
+      <button id="carousel__bth_right" class="carousel__bth_right">
+          <i class="material-icons"> chevron_right </i>
+      </button>
+  </div>
+  </main>
+  <!--Modal for contact form -->
+  <div class="modal fade" id="contact-form" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+     <div class="modal-dialog modal-sm modal-dialog-centered">
+      <div class="modal-content contact-form">
+        <div class="modal-header no_border">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            &#10005;
+          </button>
+        </div>
+        <section class="main__form-contact-window">
+          <div class="contact-form-container ">
+            <h2 class="header_title contact">Contact Us<span class="dot">.</span></h2>
+              <form action="contacts" class="form-contact" method="post">
+              <input type="text" placeholder="Your Name*" required name="user-name" />
+              <input type="tel" placeholder="Phone Number*" required name="user-tel" />
+              <input type="email" placeholder="Email*" required name="user-email" />
+              <textarea class="textarea-form-contact" id="message" placeholder="Your Message..." cols="30"
+                rows="10" name="user-comments"></textarea>
+              <input type="submit" value="Request a quote" class="contact-form-submit btn-submit-nodejs"  />
+            </form>
+            <!-- <div class="contact-nodejs-status"></div>  -->
+          </div>
+          <div class="contact-form-message modal-sm">
+            <span class="svg-ok">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 32"><g>
+                <path d="M18.32 32c-1.51 0-2.93-.62-3.997-1.746-.43-.455-.43-1.19 0-1.645.43-.455 1.128-.455 1.558 0 .653.686 1.52 1.065 2.44 1.065.92 0 1.787-.38 2.438-1.066l19.03-20.077c.652-.687 1.01-1.6 1.01-2.572 0-.97-.358-1.885-1.01-2.572-1.344-1.418-3.532-1.418-4.876 0L24.31 14.573c-.43.454-1.13.454-1.56 0-.43-.454-.43-1.19 0-1.644L33.354 1.743c2.204-2.325 5.79-2.325 7.994 0 2.204 2.325 2.204 6.108 0 8.433l-19.03 20.077C21.25 31.38 19.83 32 18.32 32z"></path><path fill-opacity=".359" d="M24 26.134l-3.295 3.44c-1.82 1.9-4.77 1.9-6.59 0L2.365 17.307c-1.82-1.9-1.82-4.98 0-6.88 1.82-1.9 4.77-1.9 6.59 0L24 26.133z"></path><path d="M18.053 32c-1.592 0-3.088-.645-4.214-1.817L1.742 17.59c-2.324-2.42-2.324-6.354 0-8.773C2.868 7.645 4.365 7 5.957 7c1.592 0 3.088.645 4.213 1.817L25.66 24.94c.453.473.453 1.24 0 1.712l-3.393 3.53C21.142 31.356 19.645 32 18.053 32zM5.957 9.42c-.97 0-1.884.393-2.57 1.108-1.42 1.475-1.42 3.876 0 5.352l12.096 12.592c.686.715 1.6 1.11 2.57 1.11.97 0 1.884-.395 2.57-1.11l2.572-2.676L8.527 10.528c-.686-.715-1.6-1.11-2.57-1.11z">
+                </path></g></svg>  
+            </span>
+            <p class="text-form-message bold">Thank you!</p>
+            <p class="text-form-message">We will contact you shortly.</p>
+            <button type="button" class="btn-close-ok" data-bs-dismiss="modal" aria-label="Close">
+              Ok            
+            </button>
+          </div>
+        </section>
+      </div>
+    </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="js/header-clock.js"></script>
+  <script src="js/companies-slider.js"></script>
+  <!-- <script src="https://unpkg.com/lightgallery@2.5.0/lightgallery.umd.js" crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js" crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script> -->
+  <script src="js/carousel.js"></script>
+  <script src="js/our-goal-carousel.js"></script>
+  <script src="js/contact-form-nodejs.js"></script>
+
+</body>
+
+</html>

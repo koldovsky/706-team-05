@@ -16,7 +16,7 @@
 
 .each__member-img-container {
     display:flex;
-    width: 950px;
+   height: 800px;
     padding: 0 5px;
     align-items: center;
 }
@@ -72,7 +72,9 @@
     border-style: solid;
     border-color: var(--light-accent-color);
 }
-
+.each__member-btn-vacancies-text:hover  {
+    color:var(--title-color);
+}
 .each__member-btn-vacancies-text {
     color: var(--title-color);
     text-transform: uppercase;
@@ -96,11 +98,11 @@
 }
 
 .each__member-btn-contact-us:hover {
-    background-color: var(--brand-color);
+    background-color: var(--brand-color);      
 }
 
-.each__member-btn-contact-us:hover a {
-    color: var(--title-color);
+.each__member-btn-contact-us:hover a{
+color: var(--title-color); 
 }
 
 .each__member-btn-contact-us-text {

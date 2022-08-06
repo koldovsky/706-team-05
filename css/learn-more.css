@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
 
-@media  (max-width:500) {
-    .container-contacts {
-        display:flex;
-        justify-content:center;
-        align-items:center;
-    }
+.contacts-learn-about   {
+    margin-top: 50px;
 }
+
 .contacts {
     display: flex;
     flex-direction: column;
@@ -15,14 +12,13 @@
     align-items: center;
     background: var(--brand-color);
     width: fit-content;
-    padding: 0 230px 50px 230px;
+    padding: 50px 230px 50px 230px;
     margin-bottom: 50px;
 }
 
 .learn__more-about-construction-industry {
     color: var(--subtitle-color);
     font-size: 34px;
-    ;
 }
 
 .learn__more-about-brand {

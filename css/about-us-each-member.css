@@ -1,32 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
+
 .each__member {
     display: flex;
     flex-direction: row;
+    height: 800px;
     justify-content: space-between;
     background-color: #032540;
 }
 
 .each__member-text {
     padding: 0 200px 0 200px;
+    width:1000px;
 }
 
-.img__each-member {
-    width: 1000px;
+.each__member-img-container {
+    display:flex;
+    width: 950px;
+    padding: 0 5px;
+    align-items: center;
+}
+
+.divider__right-row {
+    color: var(--brand-color);
 }
 
 .each__member-title {
+    font-size: 35px;
+    font-weight: bold;
     padding-top: 150px;
     color: var(--title-color);
 }
 
 .each__member-our-team-consist {
-    font-size: 14px;
     font-weight: bold;
     color: var(--subtitle-color);
 }
 
 .each__member-our-staff {
-    font-size: 14px;
     color: var(--subtitle-color);
+    padding: 20px 0;
 }
 
 .each__member-btns {

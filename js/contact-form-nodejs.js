@@ -5,7 +5,7 @@
     if (!form.checkValidity()) return;
     event.preventDefault();
     const status = document.querySelector(".contact-nodejs-status");
-    fetch("/contacts", {
+    fetch("https://deploy-706-05.herokuapp.com/contacts", {
       method: "POST",
       body: JSON.stringify({
         name: document.querySelector(

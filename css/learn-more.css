@@ -1,91 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
-.contacts   {  
-    display: flex; 
-    justify-content: space-around;
+
+@media  (max-width:500) {
+    .container-contacts {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+}
+.contacts {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background: var(--brand-color);
-    width: 1200px;
-    margin: 10%;
-     }
-     .learn-more-about-brand    {
-        display: flex;
-        align-items: center;
-        gap: 40px;
-     }   
- .contacts h2 {
+    width: fit-content;
+    padding: 0 230px 50px 230px;
+    margin-bottom: 50px;
+}
+
+.learn__more-about-construction-industry {
+    color: var(--subtitle-color);
+    font-size: 34px;
+    ;
+}
+
+.learn__more-about-brand {
+    display: flex;
+    background-color: var(--background-color);
+    align-items: center;
+    gap: 40px;
+}
+
+.contacts h2 {
+    justify-content: center;
     color: var(--background-color);
     font-size: 34px;
-    font-family: 'Rajdhani', sans-serif;  
-    }
-    .contacts button-request:hover {
-        background-color: var(--light-accent-color);
-    }
-.button-request-content  {
-    font-family: 'heebo', sans-serif;
-    color: var(--title-color);    
+    font-family: 'Rajdhani', sans-serif;
 }
-.button-request  {    
-    margin-bottom: 3px;
-    background-color: var(--background-color);
-    border-radius: 30px;
+
+.divider__right-row {
+    color: var(--brand-color);
 }
-.divider {
-    color: var(--brand-color);    
+
+.dot {
+    color: var(--light-accent-color);
 }
-.dot    {
-    color: var(--light-accent-color);  
-}
-.learn-more  {
+
+.learn__more-about-brand-read-more {
     color: var(--title-color);
     font-size: 34px;
-    font-family: 'rajdhani', sans-serif; 
-    font-weight: bold;   
-   }
-.invitation {
+    font-family: 'rajdhani', sans-serif;
+    font-weight: bold;
+}
+
+.learn__more-about-brand-coworking-invitation {
     color: var(--subtitle-color);
     font-size: 19px;
-    font-family: 'heebo', sans-serif;   
-    }
-.date-set {
-    display:flex;
+    font-family: 'heebo', sans-serif;
+}
+
+.learn__more-about-brand-date-set {
+    display: flex;
     font-size: 13px;
     color: var(--brand-color);
     font-family: 'rajdhani', sans-serif;
-    text-transform: uppercase;    
+    text-transform: uppercase;
 }
-.architecture   {
+
+.learn__more-about-brand-architecture-blog {
     color: var(--title-color);
     font-size: 22px;
-    font-family: 'rajdhani', sans-serif;    
+    font-family: 'rajdhani', sans-serif;
 }
-.architecture-meaning   {
-    font-size: 17px;
-    font-family: 'heebo', sans-serif;
-    color: var(--text-color);    
-}
-.more-info  {
+
+.learn__more-about-brand-read-more {
     font-size: 12px;
     font-weight: bold;
     font-family: 'heebo', sans-serif;
-    color: var(--light-accent-color);    
+    color: var(--light-accent-color);
 }
-.right-row  {
-   color:  var(--brand-color);   
-}
-.professional-blog   {
-    color: var(--title-color);
-    font-size: 22px;
-    font-family: 'rajdhani', sans-serif;   
-}
-.our-invitation {
-    font-size: 17px;
-    font-family: 'heebo', sans-serif;
-    color: var(--text-color);   
-}
-.our-contact-info   {   
-    display:flex;
-    align-items: center; 
+
+.request__quote {
+    display: flex;
     background-color: var(--background-color);
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.request__quote:hover {
+    display: flex;
+    background-color: var(--light-accent-color);
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.request__quote-text {
+    color: var(--title-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contacts__text {
+    font-size: 34px;
+    color: var(--background-color);
 }

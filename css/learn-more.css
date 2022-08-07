@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
 
-.contacts-learn-about   {
-    margin-top: 50px;
-}
-
 .contacts {
     display: flex;
     flex-direction: column;
@@ -12,13 +8,14 @@
     align-items: center;
     background: var(--brand-color);
     width: fit-content;
-    padding: 50px 230px 50px 230px;
+    padding: 0 230px 50px 230px;
     margin-bottom: 50px;
 }
 
 .learn__more-about-construction-industry {
     color: var(--subtitle-color);
     font-size: 34px;
+    ;
 }
 
 .learn__more-about-brand {
@@ -108,3 +105,81 @@
     font-size: 34px;
     color: var(--background-color);
 }
+
+.learn__more-about-brand-business-center-img    {
+    width:500px;
+}
+
+@media  (max-width:1200px) {
+    .contacts   {
+        padding: 0 130px 50px 130px;
+        margin:20px 50px;
+    }
+    .contacts h2     {
+        font-size: 28px;
+    }
+}
+
+@media  (max-width:900px)   {
+    .contacts   {
+        padding: 0 130px 50px 130px;
+        margin:20px 50px;
+    }
+}
+
+@media (max-width: 765px)   {
+    .learn__more-about-brand   {
+        display: flex;
+        flex-direction: column;
+    }    
+    .contacts {
+        width: fit-content;
+        padding: 0 100px 50px 100px;
+        margin: 50px 50px;
+    }
+    .learn__more-about-brand-container-text     {
+        margin:20px;
+    }
+
+    .learn__more-about-brand-business-center-img    {
+        width:480px;
+    }
+}
+
+@media (max-width: 500px)   {
+    .learn__more-about-brand-business-center-img    {
+        width:380px;
+    }
+    .contacts h2    {
+        font-size: 28px;
+    }
+    .contacts {
+        width: fit-content;
+        padding: 0 30px 25px 30px;
+        margin: 10px;
+    }
+} 
+
+@media (max-width: 400px)   {
+    .learn__more-about-brand   {
+        display: flex;
+        flex-direction: column;
+    }    
+    .contacts {
+        width: fit-content;
+        padding: 0 30px 25px 30px;
+        margin: 10px;
+    }
+
+    .learn__more-about-brand-business-center-img    {
+        width:280px;       
+    }
+    .learn__more-about-brand    {
+        margin:0 10px;
+    }
+
+    .contacts h2    {
+        font-size: 20px;
+    }
+}
+

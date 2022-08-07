@@ -7,9 +7,15 @@
     gap: 20px;
 }
 
+.divider__right-row     {
+    color: var(--brand-color);
+}
+
 .each__member-text {
     padding:0 100px;
     max-width: fit-content;
+    font-weight: bold; 
+    margin-top: 50px;  
 }
 
 .img__each-member {

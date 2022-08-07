@@ -8,8 +8,8 @@
     align-items: center;
     background: var(--brand-color);
     width: fit-content;
-    padding: 0 230px 50px 230px;
-    margin-bottom: 50px;
+    padding: 30px 230px 50px 230px;
+    margin: 50px 0;
 }
 
 .learn__more-about-construction-industry {

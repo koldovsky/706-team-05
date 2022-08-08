@@ -62,12 +62,18 @@
         for (const post of posts) {
             postContainer.innerHTML += ` 
             <figure class="posts">
+            <div>
                 <div class="posts__photo" style="background-image: url('${post.image}')"></div>
-                <figcaption>
+                <div>
                     <h4>${post.title}</h4>
                     <p>${post.description}</p>
-                    <a href="#">LEARN MORE</a> <span class="tack">&#129042</span> 
-                </figcaption>
+                </div>
+            </div>
+            <figcaption>
+                <div>
+                    <a href="#">LEARN MORE</a> <span class="tack">&#129042</span>
+                </div>
+            </figcaption>
             </figure>`;
         }
     }

@@ -50,10 +50,19 @@ body {
     text-align: center;
 }
 .posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     min-width: 280px;
     width: 100%;
     max-width: 320px;
     margin: 20px !important;
+}
+
+.posts figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .posts__photo {

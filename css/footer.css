@@ -72,3 +72,24 @@
     flex-direction: column;
     width: 100%;
 }
+
+.column-company {
+    color: var(--title-color);
+    font-size: 34px;
+    font-family: Rajdhani, sans-serif;
+}
+
+.column-services {
+    color: var(--title-color);
+    font-size: 34px;
+    font-family: Rajdhani, sans-serif;
+}
+
+.column-newsletter {
+    color: var(--title-color);
+    font-size: 34px;
+    font-family: Rajdhani, sans-serif;
+}
+
+
+

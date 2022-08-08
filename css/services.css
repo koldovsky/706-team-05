@@ -8,6 +8,17 @@
     }
 }
 
+#services-about {
+    padding: 0 24px;
+}
+
+@media (min-width: 500px) {
+    #services-about {
+        margin: 55px 120px 55px 120px;
+    }
+}
+
+
 .services-call {
     color: var(--brand-color);
     font-weight: 700;
@@ -128,4 +139,10 @@
     align-items: left;
     text-align: left;
     font-weight: 500;
+}
+
+.services-call-text {
+    color: var(--title-color);
+    font-size: 34px;
+    font-family: Rajdhani, sans-serif;
 }

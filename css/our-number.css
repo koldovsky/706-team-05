@@ -1,0 +1,30 @@
+.our-number-block {
+    text-align: center;
+    padding: 55px 0 60px 0;
+}
+
+.work-together {
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.our-number {
+    color: var(--brand-color);
+    font-size: 40px;
+}
+
+@media (min-width: 800px) {
+    .our-number {
+        font-size: 80px;
+    }
+}
+
+.our-adres {
+    font-weight: bold;
+    color: var(--title-color);
+}
+
+.our-gmail {
+    font-weight: bold;
+    color: var(--title-color);
+}

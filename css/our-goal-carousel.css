@@ -4,10 +4,14 @@
   width: 100%;
   object-fit: cover;
   cursor: zoom-out;
+  /* transform: scale(1, 0.8);  */
+
+
 }
 
 .our-goals-slides {
   transform: scale(0.9);
+
 }
 
 .our-goal-btn {
@@ -46,13 +50,14 @@
   opacity: 0.8;
   object-fit: cover;
   transition: 0.2s linear;
-  cursor: zoom-in;
+  cursor: pointer;
   transform: scale(1.01);
 }
 
 .our-goal-photo-container {
   position: fixed;
   display: grid;
+  width:100%;
   place-items: center;
   top: 0;
   left: 0;
@@ -63,12 +68,21 @@
   transition: all 0.2s ease-in-out;
   opacity: 0;
   pointer-events: none;
+  margin: auto;
 }
+
 .our-goal-photo-container.active {
   opacity: 1;
   pointer-events: all;
+
+
 }
 .our-goal-photo-wrapper {
   position: fixed;
+  width: 100%;
+}
+.our-goals-slides img {
+  display: block;
+  margin: auto;
   width: 100%;
 }

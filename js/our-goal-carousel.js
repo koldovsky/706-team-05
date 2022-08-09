@@ -46,16 +46,22 @@
   const prevBtn = document.querySelector(".our-goal-btn.prev");
   prevBtn.addEventListener("click", prev);
   const extBtn = document.querySelector(".our-goal-btn.ext");
+  extBtn.addEventListener('click', () => {
+    ourRemovedContainer()
+  });
+  const zoomInBtn = document.querySelector(".zoom-in-gallery");
+  const zoomOutBtn = document.querySelector(".zoom-out-gallery");
+
+
 
     ourImageBox.forEach((image, index) => {
     image.addEventListener ('click', (e) => {
-        currentSlideIndex = image.dataset.index;
+        currentSlideIndex = Number(image.dataset.index);
         console.log(currentSlideIndex);
         ourActiveContainer();
         renderCarousel();
     
     })
   })
-    extBtn.addEventListener('click', () => {ourRemovedContainer()});
  
 })();

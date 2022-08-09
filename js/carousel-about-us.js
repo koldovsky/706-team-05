@@ -1,9 +1,6 @@
 (function () {
 
     const slides = [
-        `<div class = "about-us__slidegit">
-            <img class="about-us__slide-img" src="img/builders-on-high-work-place.jpg" alt="four builders stand on high building">
-        </div>`,
         `<div class="about-us__slide">
             <img class="about-us__slide-img" src="img/builders-see-building-plan.jpg" alt="three builders see on building plan">
         </div>`,

@@ -1,0 +1,36 @@
+#footer-button-submit span {
+    position: absolute;
+    background: #ffffff;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    border-radius: 50%;
+    animation: animate 1s linear infinite;
+  }
+  
+  #footer-button-submit {
+    position: relative;
+    display: inline-block;
+    padding: 12px 36px;
+    margin: 10px 0;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+    border-radius: 40px;
+    overflow: hidden;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  
+  @keyframes animate {
+    0% {
+      width: 0;
+      height: 0;
+      opacity: 0.5;
+    }
+    100% {
+      width: 500px;
+      height: 500px;
+      opacity: 0;
+    }
+  }

@@ -1,0 +1,36 @@
+
+.video-sec {
+    background-image: linear-gradient(to bottom, rgba(3, 31, 53, 0.082), rgba(3, 31, 53, 1)), url(../img/video_bg_8.png);
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+
+.video-content {
+    padding-left: 15vh;
+    padding-top: 48vh;
+}
+
+.video-text-p{
+    font-family: Rajdhani, sans-serif;
+    color: white;
+    position: relative;
+    display: flex;
+    margin-left: 65px;
+    font-weight: 100;
+
+}
+
+.play-btn {
+    border-width: 15px;
+    border-color: #ffa800;
+    border-radius: 30px;
+    border-style: solid;
+    float: left;
+    background-color: #ffa800;
+
+}

@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+
+@media only screen and (max-width: 950px) {
+    #menu {
+        display: none;
+    }
+    #telHeader {
+        display: none;
+    }
+    #hamb {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 951px) {
+    #menu {
+        display: flex;
+    }
+    #telHeader {
+        display: inline-block;
+    }
+    #hamb {
+        display: none;
+    } 
+}
+
+#popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#closeBtn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 55px;
+    font-weight: 400;
+    transform: rotate(45deg);
+    transition-property: color;
+    transition-duration: 0.4s;
+}
+
+#hamb div {
+    width: 100%;
+    border-top: 3px solid #fff;
+    margin-bottom: 5px;
+    transition-property: border-top;
+    transition-duration: 0.4s;
+}
+
+#hamb:hover div {
+    border-top: 3px solid rgb(116, 105, 105);
+}
+
+#closeBtn:hover {
+    color: rgb(116, 105, 105)
+}
+
+#hamb button {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    width: 40px;
+    height: 30px;
+}
+
+ul {
+    padding: 0;
+}
+
+.dropMenuOff {
+    display: none;
+}
+
+.dropMenuOn {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#dropMenu > div {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.wrapperOn {
+    display: block;
+}
+
+.wrapperOff {
+    display: none;    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+    background-image: url(../img/services/cover-service.png);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+.header__wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(11, 11, 20, 0.8);
+    height: 100%;
+    width: 100%;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.header_logo {
+    width: 176px;
+}
+.header_top-services {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 30px 40px;
+}
+
+.header_navbar {
+    display: flex;
+    flex-grow: 2;
+}
+
+.header_navbar_drop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header_navbar_drop ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.header_navbar_drop ul li {
+    margin-top: 2rem;
+}
+
+.header_navbar ul  {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 2rem;
+    align-items: center;
+   
+}
+
+.header_navbar ul li {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header_menu-link-services {
+    font-family: 'Heebo', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+.header_menu-link-services::after {
+    content: ' ';
+    width: 0;
+    height: 0;
+    border-bottom: 3px solid #fff;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition-property: width;
+    transition-duration: 0.5s;
+}
+
+.header_menu-link-services:hover::after {
+    width: 100%;
+    
+} 
+.header_menu-link-services:hover {
+    color: #FFA800;
+}
+.header_tell {
+    color: #FFA800;
+}
+.link_tell {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+}
+.link_tell:hover {
+    text-decoration: underline;
+}
+
+.text_wrapper {
+    padding-bottom: 80px;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 48px;
+    color: #fff;
+}
+.text_wrapper p {
+    text-align: left;
+    font-family: 'Heebo', sans-serif;
+    font-size: 19px;
+    color: #fff;
+}
+.span_title {
+    color: #FFA800;
+}
+

@@ -1,0 +1,113 @@
+.footer {
+    background-color: #031f35;
+    padding: 30px 0 40px;
+    font-family: 'Heebo', sans-serif;
+    display: flex; 
+    justify-content: center;
+
+}
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__item {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-width: 180px;
+    max-width: 250px;
+    margin: 2rem 1rem;
+}
+.footer__item  ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer__logo img {
+    width: 150px;
+}
+.footer__text {
+    color: #767896;
+    font-size: 14px;
+    padding-top: 25px; 
+
+}
+.footer__social {
+    display: flex;
+    flex-direction: row;
+}
+.footer__social a {
+    padding-right: 10px;
+}
+.footer__item-title {
+    color: #fff;
+    font-family: 'Rajdhani', sans-serif ;
+    font-size: 23px;
+    font-weight: 700;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.06);
+    
+
+}
+.footer__item-list {
+    width: 115px;
+}
+.footer__list {
+    padding: 10px;
+}
+.footer_list a {
+    color: #767896;
+    font-family: 'Heebo', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    line-height: 40px;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#email {
+    height: 40px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+#subscribe {
+    height: 40px;
+    background-color: #FFA800;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+#subscribe:hover {
+    background-color: #0c78cc;
+}
+
+@media only screen and (max-width: 550px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer__item {
+        align-items: center;
+        margin: 2rem 1rem;
+    }
+    .footer_list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
